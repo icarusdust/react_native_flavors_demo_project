@@ -45,7 +45,7 @@ workflows:
             groups:
                - ios_credentials
             vars:      
-               XCODE_WORKSPACE: "react_native_flavors_demo_project"
+               XCODE_WORKSPACE: "react_native_flavors_demo_project.xcworkspace"
                BUNDLE_ID: _
                XCODE_SCHEME: _
  

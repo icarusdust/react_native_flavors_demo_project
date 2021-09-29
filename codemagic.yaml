@@ -42,6 +42,12 @@ workflows:
         max_build_duration: 120
         instance_type: mac_pro
         environment:
+            groups:
+               - ios_credentials
+            vars:      
+               XCODE_WORKSPACE: "react_native_flavors_demo_project"
+               BUNDLE_ID: _
+               XCODE_SCHEME: _
  
 #             vars:
 #                 # Env vars for automatic iOS code signing

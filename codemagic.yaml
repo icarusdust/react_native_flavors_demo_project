@@ -58,9 +58,6 @@ workflows:
             node: latest
             xcode: 12.5
             cocoapods: default
-            groups:
-               - ios
-               - certificate_creds 
         scripts:
             - name: Install npm dependencies
               script: |
